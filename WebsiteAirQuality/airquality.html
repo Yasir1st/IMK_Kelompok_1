@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>East Java Air Quality</title>
+    <!-- Internal CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/290082a425.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <!-- Inline Javascript -->
+
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="container-navbar">
+        <ul class="ul-navbar">
+            <img src="image/logo.png" class="img-navbar" />
+            <h3 class="brand-navbar">East Java Air Quality</h3>
+                <div class="search-box">
+                    <input type="text" placeholder="Search..." />
+                    <a href="airquality.html"><i class="fa-solid fa-magnifying-glass"></i> </a>
+                </div>
+            <li class="li-navbar">
+                <a href="home.html" class="a-navbar">Home</a>
+            </li>
+            <li class="li-navbar">
+                <a href="#" class="a-navbar">Air Quality</a>
+            </li>
+            <li class="li-navbar">
+                <a href="news.html" class="a-navbar">News</a>
+            </li>
+            <li class="li-navbar">
+                <a class="about-us" href="#" onclick="scrollToBottom()">About Us</a>
+            </li>
+            <a href="#" class="b-navbar"><i class="fa-regular fa-bell"></i></a>
+        </ul>
+    </div>
+    <!-- Navigation Bar End -->
+
+    <!-- Content -->
+    <div class="content-box2">
+        <div class="grid-container2">
+            <div class="grid-item">
+                <div class="title-status2">
+                    <p><b>Air Quality Status</b> - Malang</p>
+                </div>
+                <div class="container-status2">
+                    <div class="status-section">
+                        <img src="image/Status.png" class="img-status2" />
+                    </div>
+                    <div class="status-section2">
+                        <h6>Good</h6>
+                        <p>The atmospheric condition is deemed to be in a state of acceptability, with minimal to negligible concern regarding the presence of pollutants in the air.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="grid-item">
+                <div class="title-maps2">
+                    <p><b>Maps Of East Java</b></p>
+                </div>
+                <div class="container-maps2">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126438.33876450575!2d112.54937971911556!3d-7.978467192874644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd62822063dc2fb%3A0x78879446481a4da2!2sMalang%2C%20Kota%20Malang%2C%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1700557880659!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            
+            <div class="grid-item">
+                <div class="btn-locate">
+                    <a  href="#" id="activateGPS">Locate Me <i class="fa-solid fa-location-arrow"></i></a>
+                </div>
+                <div class="title-warning2">
+                    <h6>Warning Maps Key</h6>
+                </div>
+                <ul class="container-warning2">
+                    <li><p>Good</p></li>
+                    <li><p>Moderate</p></li>
+                    <li><p>Unhealthy</p></li>
+                    <li><p>Very&nbsp;Unhealthy</p></li>
+                    <li><p>Hazardous</p></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="grid-container3">
+        <div class="grid-item2">
+            <div class="title-index2">
+                <p><b>All Pollutants</b></p>
+            </div>
+            <div class="container-index2">
+                <div class="left-section">
+                    <div class="status-section2">
+                        <img src="image/pollutants1.png" class="img-pollutants" />
+                    </div>
+                    <div class="status1">
+                        <p class="status1-1">PM2.5 (Particulate matter less<br/>
+                            than 2.5 microns)<p>
+                        <p class="status1-2">Moderate</p>
+                        <p class="status1-3">23.81 µg/m3</p>
+                        <p class="garis1"></p>
+                    </div>
+                    <div class="status-section2">
+                        <img src="image/pollutants2.png" class="img-pollutants2" />
+                    </div>
+                    <div class="status2">
+                        <p class="status2-1">NO2 (Nitrogen Dioxide)</p>
+                        <p class="status2-2">Good</p>
+                        <p class="status2-3">9.3 µg/m3</p>
+                        <p class="garis2"></p>
+                    </div>
+                    <div class="status-section2">
+                        <img src="image/pollutants3.png" class="img-pollutants3" />
+                    </div>
+                    <div class="status3">
+                        <p class="status3-1">NO2 (Nitrogen Dioxide)</p>
+                        <p class="status3-2">Good</p>
+                        <p class="status3-3">9.3 µg/m3</p>
+                    </div>
+                </div>
+                <div class="right-section">
+                    <div class="status-section2">
+                        <img src="image/pollutants4.png" class="img-pollutants4" />
+                    </div>
+                    <div class="status1">
+                        <p class="status4-1">CO (Carbon Monoxide)<p>
+                        <p class="status4-2">Good</p>
+                        <p class="status4-3">500 µg/m3</p>
+                        <p class="garis4"></p>
+                    </div>
+                    <div class="status-section2">
+                        <img src="image/pollutants5.png" class="img-pollutants5" />
+                    </div>
+                    <div class="status2">
+                        <p class="status5-1">O3 (Ozone)</p>
+                        <p class="status5-2">Good</p>
+                        <p class="status5-3">45.39 µg/m3</p>
+                        <p class="garis5"></p>
+                    </div>
+                    <div class="status-section2">
+                        <img src="image/pollutants6.png" class="img-pollutants6" />
+                    </div>
+                    <div class="status3">
+                        <p class="status6-1">SO2 (Sulphur Dioxide)</p>
+                        <p class="status6-2">Good</p>
+                        <p class="status6-3">13.55 µg/m3</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item2">
+            <div class="title-rangking">
+                <p ><b>Realtime City Ranking</b> <p class="real-time" id="dateTimeDisplay"></p></p>
+            </div>
+            <div class="container-rangking">
+                <div class="left-section2">
+                    <div class="no-section">
+                        <p><b>#</b></p>
+                    </div>
+                    <ul class="no-rangking">
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
+                        <li>6</li>
+                        <li>7</li>
+                        <li>8</li>
+                        <li>9</li>
+                    </ul>
+                </div>
+                <div class="mid-section2">
+                    <div class="city-section">
+                        <p><b>City</b></p>
+                    </div>
+                    <ul class="city-rangking">
+                        <li>Surabaya, East Java</li>
+                        <li>Malang, East Java</li>
+                        <li>Kediri, East Java</li>
+                        <li>Batu, East Java</li>
+                        <li>Probolinggo, East Java</li>
+                        <li>Pasuruan, East Java</li>
+                        <li>Madiun, East Java</li>
+                        <li>Blitar, East Java</li>
+                        <li>Mojokerto, East Java</li>
+                    </ul>
+                </div>
+                <div class="right-section2">
+                    <div class="aqi-section">
+                        <p><b>US AQI</b></p>
+                    </div>
+                    <ul class="aqi-rangking">
+                        <li>39</li>
+                        <li>39</li>
+                        <li>40</li>
+                        <li>40</li>
+                        <li>42</li>
+                        <li>46</li>
+                        <li>54</li>
+                        <li>62</li>
+                        <li>79</li>
+                    </ul>
+                </div>   
+            </div>
+        </div>    
+    </div>
+    <!-- End Content -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container-footer">
+            <div class="logo-footer">
+                <li><img class="logo-web" src="image/logo.png"></li>
+                <li><img class="logo-ub" src="image/logoUB.png"></li>
+                <li><img class="logo-jt" src="image/logoJT.png"></li>
+            </div>
+            <div class="icon-footer">
+                <h2>About Us</h2>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="footer-content">
+                <div class="text-footer">
+                    <li><a href="home.html" class="list-footer">Home</a></li>
+                    <li><a href="airquality.html" class="list-footer">Air Quality</a></li>
+                    <li><a href="news.html" class="list-footer">News</a></li>
+                    <li><a href="#" class="list-footer">About Us</a></li>
+                </div>
+                <div class="alamat-footer">
+                    <li><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;Jawa Timur, Malang, Universitas Brawijaya</li>
+                    <li><i class="fa-solid fa-envelope"></i>&nbsp;Jatimairquality@gmail.org</li>
+                    <li><i class="fa-solid fa-phone"></i>&nbsp;(0341) 551611</li>
+                    <li><i class="fa-regular fa-circle-question"></i>&nbsp;FAQ</li>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-footer">
+            <h6>© Copyright Air Quality LLC 2023, 2024</h6>
+        </div>  
+
+    </footer>
+    <!-- Footer and -->
+</body>
+</html>    

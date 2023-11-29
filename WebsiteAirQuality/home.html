@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>East Java Air Quality</title>
+    <!-- Internal CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/290082a425.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="container-navbar">
+        <ul class="ul-navbar">
+            <img src="image/logo.png" class="img-navbar" />
+            <h3 class="brand-navbar">East Java Air Quality</h3>
+                <div class="search-box">
+                    <input type="text" placeholder="Search..."  /> 
+                    <a href="airquality.html"><i class="fa-solid fa-magnifying-glass"></i> </a>
+                </div>
+            <li class="li-navbar">
+                <a href="#" class="a-navbar">Home</a>
+            </li>
+            <li class="li-navbar">
+                <a href="airquality.html" class="a-navbar">Air Quality</a>
+            </li>
+            <li class="li-navbar">
+                <a href="news.html" class="a-navbar">News</a>
+            </li>
+            <li class="li-navbar">
+                <a class="about-us" href="#" onclick="scrollToBottom()">About Us</a>
+            </li>
+            <a href="#" class="b-navbar"><i class="fa-regular fa-bell"></i></a>
+        </ul>
+    </div>
+    <!-- Navigation Bar End -->
+
+    <!-- Content -->
+    <div class="container-content">
+        <section class="carousel-content">
+            <div class="slider-wrapper">
+                <div class="slider">
+                    <img id="slide-1" src="image/karusol1.png" />
+                    <img id="slide-2" src="image/karusol2.png" />
+                    <img id="slide-3" src="image/karusol3.png" />
+                </div>
+                <div class="slider-nav">
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a>
+                    <a href="#slide-3"></a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="content-box">
+    <div class="grid-container">
+        <div class="grid-item">
+            <div class="title-status">
+                <p><b>Air Quality Status</b> - Malang</p>
+            </div>
+            <div class="container-status">
+                <div class="status-section">
+                    <img src="image/Status.png" class="img-status" />
+                </div>
+                <div class="status-section">
+                    <h6>Good</h6>
+                    <p>The atmospheric condition is deemed to be in a state of acceptability, with minimal to negligible concern regarding the presence of pollutants in the air.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="grid-item">
+            <div class="title-maps">
+                <p><b>Maps Of East Java</b></p>
+            </div>
+            <div class="container-maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126438.33876450575!2d112.54937971911556!3d-7.978467192874644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd62822063dc2fb%3A0x78879446481a4da2!2sMalang%2C%20Kota%20Malang%2C%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1700557880659!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        
+        <div class="grid-item">
+            <div class="title-warning">
+                <h6>Warning Maps Key</h6>
+            </div>
+            <ul class="container-warning">
+                <li><p>Good</p></li>
+                <li><p>Moderate</p></li>
+                <li><p>Unhealthy</p></li>
+                <li><p>Very&nbsp;Unhealthy</p></li>
+                <li><p>Hazardous</p></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    <div class="title-index">
+        <p><b>Air Quality Index</b></p>
+        <ul class="container-index">
+            <li>0-50</li>
+            <li>51-100</li>
+            <li>101-150</li>
+            <li>151-200</li>
+            <li><200</li>
+        </ul>
+        <ul class="text-index">
+            <li>Good</li>
+            <li>Moderate</li>
+            <li>Unhealthy</li>
+            <li>Very Unhealthy</li>
+            <li>Hazardous</li>
+        </ul>        
+    </div>
+    <div class="title-news">
+        <p class="title-news1"><b>News</b></p>
+        <div class="grid-news">
+            <div class="card">
+                <img class="card-img-top" src="image/berita-surabaya.jpg" alt="News Image">
+                <div class="card-body">
+                    <h3 class="card-title">Kualitas Udara Di Surabaya Jadi Kota Terbersih Se-Indonesia Tahun 2023</h3>
+                    <a href="news.html" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        
+            <div class="card">
+                <img class="card-img-top" src="image/berita-malang.jpg" alt="News Image">
+                <div class="card-body">
+                    <h4 class="card-title">Kualitas Udara di Kota Malang Berpotensi Buruk Akibat Padatnya Kendaraan Maba</h4>
+                    <a href="news.html" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        
+            <div class="card">
+                <img class="card-img-top" src="image/cuaca-ekstrem.jpg" alt="News Image">
+                <div class="card-body">
+                    <h4 class="card-title">Waspada Cuaca Ekstrem di Jatim hingga 2 Desember 2023, Hujan Es-Longsor</h4>
+                    <a href="news.html" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        
+            <div class="card">
+                <img class="card-img-top" src="image/polusi.jpg" alt="News Image">
+                <div class="card-body">
+                    <h5 class="card-title">Polusi Udara Memburuk, Dampaknya Bagi Kesehatan dan Action Kita</h5>
+                    <a href="news.html" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-img-top" src="image/berita-kampanye.jpg" alt="News Image">
+                <div class="card-body">
+                    <h4 class="card-title">Kota Malang Bersih: Aksi Nyata Kampenye Lingkungan Menyikapi Perubahan Iklim</h4>
+                    <a href="news.html" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Content End -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container-footer">
+            <div class="logo-footer">
+                <li><img class="logo-web" src="image/logo.png"></li>
+                <li><img class="logo-ub" src="image/logoUB.png"></li>
+                <li><img class="logo-jt" src="image/logoJT.png"></li>
+            </div>
+            <div class="icon-footer">
+                <h2>About Us</h2>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="footer-content">
+                <div class="text-footer">
+                    <li><a href="home.html" class="list-footer">Home</a></li>
+                    <li><a href="airquality.html" class="list-footer">Air Quality</a></li>
+                    <li><a href="news.html" class="list-footer">News</a></li>
+                    <li><a href="#" class="list-footer">About Us</a></li>
+                </div>
+                <div class="alamat-footer">
+                    <li><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;Jawa Timur, Malang, Universitas Brawijaya</li>
+                    <li><i class="fa-solid fa-envelope"></i>&nbsp;Jatimairquality@gmail.org</li>
+                    <li><i class="fa-solid fa-phone"></i>&nbsp;(0341) 551611</li>
+                    <li><i class="fa-regular fa-circle-question"></i>&nbsp;FAQ</li>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-footer">
+            <h6>© Copyright Air Quality LLC 2023, 2024</h6>
+        </div>  
+
+    </footer>
+     
+    <!-- Footer and -->
+</body>
+</html>
